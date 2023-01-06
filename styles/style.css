@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.header{
+    background-image: url('./img/baymax.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.header-text{
+    width: 400px;
+}
+.header-text h1, p,button{
+    color: #011627;
+}
+.header-img{
+    margin-left: 193px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 20px solid #011627;
+    overflow: hidden;
+
+}
+.header-img:hover{
+    margin-left: 193px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 20px solid #3d7db3;
+    overflow: hidden;
+}
+.header-img img{
+    margin-top: -22px;
+    
+}
+.header-button{
+    margin-top: 2em;
+}
+.btn{
+    padding: 10px 15px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 15px;
+}
